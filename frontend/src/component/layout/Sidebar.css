@@ -1,0 +1,41 @@
+.side_panel {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+.site_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 100;
+    background-color: #1DA1F2;
+    border-radius: 10px 0 0 10px;
+    color: white;
+}
+
+.site_header img {
+    width: 80px;
+}
+
+.menu_item {
+    display: grid;
+    grid-template-columns: auto 30px;
+    grid-gap: 10px;
+    font-size: 1.3rem;
+    font-weight: 300;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.menu_item:hover {
+    color: #1DA1F2;
+}
+
+.menu_item i {
+    justify-self: flex-end;
+}
